@@ -63,11 +63,47 @@ Index screen
 .content-center .content-grid .content-folder a {
   text-decoration: none;
   color: #000;
+  cursor: move;
 }
 .content-center .content-grid .content-folder img {
   width: 100px;
+  cursor: move;
 }
 .content-center .content-grid .content-folder h4 {
   font-size: 1em;
   font-weight: 400;
+}
+
+/**
+About page
+**/
+.about-page {
+  padding: 20px;
+}
+.about-page h1 {
+  font-size: 1.4em;
+  font-weight: 400;
+}
+.about-page p {
+  font-size: 1em;
+  font-weight: 400;
+}
+
+/**
+Apparel page
+**/
+.apparel-page {
+  text-align: center;
+  padding-top: 50px;
+}
+
+.gallery-bottom {
+  padding-top: 50px;
+}
+.gallery-bottom .row .gallery-item {
+  margin-top: 25px;
+}
+.gallery-bottom .row h3 {
+  text-align: center;
+  margin-bottom: 25px;
 }

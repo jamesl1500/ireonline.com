@@ -7,7 +7,7 @@
         <!-- Grid row -->
         <div class="content-grid">
             <!-- Apparel -->
-            <div class="content-folder">
+            <div class="content-folder" draggable="true">
                 <a href="{{ route('apparel') }}">
                     <div class="content-folder-icon">
                         <img src="{{ asset('images/bluefolder.png') }}" alt="">
@@ -32,7 +32,7 @@
 
             <!-- UX/UI -->
             <div class="content-folder">
-                <a href="">
+                <a href="{{ route('ux') }}">
                     <div class="content-folder-icon">
                         <img src="{{ asset('images/bluefolder.png') }}" alt="">
                     </div>
@@ -56,7 +56,7 @@
 
             <!-- Exhibitions -->
             <div class="content-folder">
-                <a href="">
+                <a href="{{ route('exhibitions') }}">
                     <div class="content-folder-icon">
                         <img src="{{ asset('images/bluefolder.png') }}" alt="">
                     </div>

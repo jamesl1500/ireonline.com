@@ -79,16 +79,60 @@ Index screen
             a{
                 text-decoration: none;
                 color: #000;
+                cursor:move;
+
             }
 
             img{
                 width: 100px;
+                cursor:move;
             }
 
             h4{
                 font-size: 1.0em;
                 font-weight: 400;
             }
+        }
+    }
+}
+
+/**
+About page
+**/
+.about-page{
+    padding: 20px;
+
+    h1{
+        font-size: 1.4em;
+        font-weight: 400;
+    }
+
+    p{
+        font-size: 1.0em;
+        font-weight: 400;
+    }
+}
+
+/**
+Apparel page
+**/
+.apparel-page{
+    text-align: center;
+    padding-top: 50px;
+}
+
+.gallery-bottom {
+    padding-top: 50px;
+
+    .row{
+
+        .gallery-item{
+            margin-top: 25px;
+        }
+
+        h3{
+            text-align: center;
+            margin-bottom: 25px;
         }
     }
 }

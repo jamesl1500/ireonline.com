@@ -24,7 +24,9 @@
     
 <!-- Scripts -->
 <script src="{{ asset('js/jquery.js') }}" defer></script>
+<script src="{{ asset('js/jquery-ui.min.js') }}" defer></script>
 <script src="{{ asset('js/bootstrap.js') }}" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous" async></script>
 <script src="{{ asset('js/app.js') }}" defer></script>
 </body>
 </html>

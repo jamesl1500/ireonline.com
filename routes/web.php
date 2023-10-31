@@ -29,6 +29,14 @@ Route::get('/branding', function () {
     return view('branding');
 })->name('branding');
 
+Route::get('/exhibitions', function () {
+    return view('exhibitions');
+})->name('exhibitions');
+
+Route::get('/ux', function () {
+    return view('ux');
+})->name('ux');
+
 Route::get('/contact', function () {
     return view('contact');
 })->name('contact');
