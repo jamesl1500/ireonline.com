@@ -39,7 +39,7 @@ Route::get('/ux', function () {
 
 Route::get('/ux/eeg', function () {
     return view('ux.eeg');
-})->name('ux');
+})->name('eeg');
 
 Route::get('/contact', function () {
     return view('contact');
