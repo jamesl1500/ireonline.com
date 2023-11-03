@@ -4,7 +4,8 @@
 
 @section('content')
 <div class="apparel-page">
-    <h1>UX/UI</h1>
+    <h1>View Project</h1>
+    <a href='/ux'>Back to UX/UI</a>
 </div>
 <div class="gallery-bottom">
     <!-- Website -->
@@ -18,12 +19,11 @@
         $num_files = count($files)-2;
                 
         // Loop through the array of files
-        for ($i = 0; $i < 1; $i++) {
+        for ($i = 0; $i < $num_files; $i++) {
             // Print the filenames to the page
-            echo '<div class="col-12"><img style="width: 100%;" src="/images/ux/eeg/'.$files[$i+2].'" alt=""></div>';
+            echo '<div class="col-6"><img style="width: 100%;" src="/images/ux/eeg/'.$files[$i+2].'" alt=""></div>';
         }
         ?>
-        <a style="text-align: center;" href="/ux/eeg">View Project</a>
     </div>
 </div>
 @endsection

@@ -37,6 +37,10 @@ Route::get('/ux', function () {
     return view('ux');
 })->name('ux');
 
+Route::get('/ux/eeg', function () {
+    return view('ux.eeg');
+})->name('ux');
+
 Route::get('/contact', function () {
     return view('contact');
 })->name('contact');
