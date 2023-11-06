@@ -54,6 +54,24 @@ Header
 }
 
 /**
+Footer
+**/
+.footer{
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    border-top: 1px solid #000;
+    margin-top: 50px;
+
+    .container{
+
+        p{
+            text-align: center;
+        }
+    }
+}
+
+/**
 Index screen
 **/
 .content-center{
@@ -135,4 +153,9 @@ Apparel page
             margin-bottom: 25px;
         }
     }
+}
+
+.gallery-bottom.ga{
+    width: 500px;
+    margin: 0 auto;
 }

@@ -41,6 +41,19 @@ Header
 }
 
 /**
+Footer
+**/
+.footer {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border-top: 1px solid #000;
+  margin-top: 50px;
+}
+.footer .container p {
+  text-align: center;
+}
+
+/**
 Index screen
 **/
 .content-center {
@@ -106,4 +119,9 @@ Apparel page
 .gallery-bottom .row h3 {
   text-align: center;
   margin-bottom: 25px;
+}
+
+.gallery-bottom.ga {
+  width: 500px;
+  margin: 0 auto;
 }

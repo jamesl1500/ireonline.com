@@ -65,6 +65,18 @@
                     </div>
                 </a>
             </div>
+
+            <!-- Illustrations -->
+            <div class="content-folder">
+                <a href="{{ route('illustrations') }}">
+                    <div class="content-folder-icon">
+                        <img src="{{ asset('images/bluefolder.png') }}" alt="">
+                    </div>
+                    <div class="content-folder-title">
+                        <h4>Illustrations</h4>
+                    </div>
+                </a>
+            </div>
         </div>
     </div>
 @endsection

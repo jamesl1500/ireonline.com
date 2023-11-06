@@ -33,6 +33,10 @@ Route::get('/exhibitions', function () {
     return view('exhibitions');
 })->name('exhibitions');
 
+Route::get('/illustrations', function () {
+    return view('illustrations');
+})->name('illustrations');
+
 Route::get('/ux', function () {
     return view('ux');
 })->name('ux');

@@ -6,7 +6,7 @@
 <div class="apparel-page">
     <h1>UX/UI</h1>
 </div>
-<div class="gallery-bottom">
+<div class="gallery-bottom ga">
     <!-- Website -->
     <div class="row mb-5">
         <h3>Educational Empowerment Group</h3>
@@ -23,7 +23,7 @@
             echo '<div class="col-12"><img style="width: 100%;" src="/images/ux/eeg/'.$files[$i+2].'" alt=""></div>';
         }
         ?>
-        <a style="text-align: center;" href="/ux/eeg">View Project</a>
+        <a style="text-align: center;padding-top: 25px;" href="/ux/eeg">View Project</a>
     </div>
 </div>
 @endsection
