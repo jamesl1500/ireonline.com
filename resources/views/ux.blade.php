@@ -24,6 +24,16 @@
         }
         ?>
         <a style="text-align: center;padding-top: 25px;" href="/ux/eeg">View Project</a>
+        <br><br><br /><br />
+        <div class="ar-design">
+            <h3>AR Design</h3>
+            <!-- AR Video -->
+            <div class="col-12">
+                <video style="width: 100%;" controls>
+                    <source src="/images/ux/ar/aero_recording.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
     </div>
 </div>
 @endsection

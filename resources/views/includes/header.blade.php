@@ -7,6 +7,7 @@
         </div>
         <div class="header-menu col-lg-9">
             <ul>
+                <li><a href="https://ireonline.myshopify.com">Shop</a></li>
                 <li><a href="{{ route('contact') }}">Contact</a></li>
             </ul>
         </div>

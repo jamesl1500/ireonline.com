@@ -9,7 +9,7 @@
 <div class="gallery-bottom">
     <!-- Columbus crew -->
     <div class="row mb-5">
-        <h3>Columbus Crew</h3>
+        <h3>Columbus Crew Pitch</h3>
         <?php
         // Get array of files within uploads folder
         $files = scandir('../public/images/apparel/columbuscrew');
