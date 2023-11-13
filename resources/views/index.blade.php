@@ -77,6 +77,30 @@
                     </div>
                 </a>
             </div>
+
+            <!-- Shop -->
+            <div class="content-folder">
+                <a href="https://ireonline.myshopify.com">
+                    <div class="content-folder-icon">
+                        <img src="{{ asset('images/bluefolder.png') }}" alt="">
+                    </div>
+                    <div class="content-folder-title">
+                        <h4>Shop</h4>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Shop -->
+            <div class="content-folder">
+                <a href="https://ireonline.myshopify.com">
+                    <div class="content-folder-icon">
+                        <img src="{{ asset('images/bluefolder.png') }}" alt="">
+                    </div>
+                    <div class="content-folder-title">
+                        <h4>Blog</h4>
+                    </div>
+                </a>
+            </div>
         </div>
     </div>
 @endsection
