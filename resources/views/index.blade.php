@@ -92,7 +92,7 @@
 
             <!-- Shop -->
             <div class="content-folder">
-                <a href="https://ireonline.myshopify.com">
+                <a href="https://ireonline.myshopify.com/blogs/news/branding">
                     <div class="content-folder-icon">
                         <img src="{{ asset('images/bluefolder.png') }}" alt="">
                     </div>

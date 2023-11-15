@@ -6,10 +6,15 @@
 <div class="apparel-page">
     <h1>Exhibitions</h1>
 </div>
-<div class="gallery-bottom">
+<div class="gallery-bottom ga">
     <!-- Columbus crew -->
     <div class="row mb-5">
-        <h3>View all of our exhibitions</h3>
+        <h3>Okay Exhibition</h3>
+        <p>
+            The art show "Okay" invites you to delve into the realm of artistic expression and exploration. With a profound understanding that perfection is not the ultimate goal, this collection of prints encapsulates the sentiment, "it's not okay, but that's okay." This phrase symbolizes the shared experience of numerous creatives who find themselves in a transitional phase, where they haven't yet reached their desired artistic zenith, but they remain resilient and optimistic on their path to self-realization.
+
+            Through thoughtfully crafted prints, this exhibition provides a glimpse into the rich tapestry of emotions, challenges, and triumphs encountered by artists on the brink of their breakthrough. It celebrates the vulnerability, determination, and acceptance required to navigate the intricate web of artistic progress. Each artwork serves as a testament to the ongoing journey of self-discovery, reminding us that true growth lies in embracing imperfection and finding solace in the knowledge that we are closer than ever to realizing our artistic aspirations.
+        </p>
         <?php
         // Get array of files within uploads folder
         $files = scandir('../public/images/exhibitions');
