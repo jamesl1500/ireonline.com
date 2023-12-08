@@ -45,6 +45,10 @@ Route::get('/ux/eeg', function () {
     return view('ux.eeg');
 })->name('eeg');
 
+Route::get('/ux/cashnest', function () {
+    return view('ux.cashnest');
+})->name('eeg');
+
 Route::get('/contact', function () {
     return view('contact');
 })->name('contact');
