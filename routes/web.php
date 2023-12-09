@@ -29,6 +29,22 @@ Route::get('/branding', function () {
     return view('branding');
 })->name('branding');
 
+Route::get('/branding/tric', function () {
+    return view('branding.tric');
+})->name('branding.tric');
+
+Route::get('/branding/olu', function () {
+    return view('branding.olu');
+})->name('branding.olu');
+
+Route::get('/branding/tmobile', function () {
+    return view('branding.tmobile');
+})->name('branding.tmobile');
+
+Route::get('/branding/faipi', function () {
+    return view('branding.faipi');
+})->name('branding.faipi');
+
 Route::get('/exhibitions', function () {
     return view('exhibitions');
 })->name('exhibitions');
